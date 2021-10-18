@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
     def home
-        render html: "Main page"
+        render "/static_pages/home"
     end
 end
