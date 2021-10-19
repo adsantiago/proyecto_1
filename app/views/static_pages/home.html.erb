@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h3><%= Time.now.strftime("%F %T") %></h3>
+    <h3><%= Time.now.in_time_zone('Bogota').strftime("%F %T") %></h3>
     <h1>Pagina principal</h1>
     <a href="/static_pages/basics">Basics</a>
     <br>
